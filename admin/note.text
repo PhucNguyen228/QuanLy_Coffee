@@ -1,0 +1,26 @@
+thêm popup cho remove and update danh mục sản phẩm:
+[
+    bạn có muốn xoá không,
+    cập nhập thành công hoặc thật bại
+]
+
+- install laravel global: composer global require laravel/installer
+- check: laravel
+- new folder: laravel new myfolder
+
+hàm này để kiểm tra lỗi sai khi lỗi thì không xoá hết thông tin
+dùng hàm: echo "script" location:window.history.back('về lại file.php đăng ký')</script>;
+
+update code lên github: git add . lấy hếy folder trong thư mục đó
+                        git add + tên file hoặc folder nào đó
+
+note nhớ commit -m "content" trước khi push code
+push code lên git: git push origin master
+
+cách lấy code: git clone link https://github.com/
+copy link xem hướng dẫ lấy code
+hướng dẫn lấy code chú ý là trước đó đã lấy 1 lần rồi muốn lấy code xuống lần nữa thì làm như này: https://www.youtube.com/watch?v=1zDXRKNNFfQ&ab_channel=T%C3%A8oChannel
+git pull origin master
+
+add slash in string php
+addslash() hàm này sẽ thêm \ trước ký tự đặt biệt để không bị lỗi khi ta thêm vào my sql
